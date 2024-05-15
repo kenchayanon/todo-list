@@ -1,0 +1,104 @@
+/* styles.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.button1 {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #21825c;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card ul {
+    padding: 0;
+}
+
+.card ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+.card ul li p{
+    width: 400px;
+    overflow-wrap: break-word
+}
+
+.card ul li input {
+    margin-right: 10px;
+}
+
+.deletebtn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.deletebtn:hover {
+    background-color: #d32f2f;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.title {
+    font-weight: bold;
+    color: #21825c;
+    margin-bottom: 10px;
+}
+
+.bar {
+    margin-top: 20px;
+}
+
+.button2 {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 2px 5px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #21825c;
+}
+
